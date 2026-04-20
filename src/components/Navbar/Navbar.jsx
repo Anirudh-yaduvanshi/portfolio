@@ -41,6 +41,8 @@ const Navbar = () => {
     { id: "skills", label: "Skills" },
     { id: "work", label: "Projects" },
     { id: "education", label: "Education" },
+    { id: "contact", label: "Contact" },
+
   ];
 
   return (
@@ -53,7 +55,10 @@ const Navbar = () => {
     >
       <div className="text-white py-5 flex justify-between items-center">
         {/* Logo */}
-        <div className="text-lg font-semibold cursor-pointer">
+        <div className="text-lg font-semibold cursor-pointer" onClick={() => {
+          handleMenuItemClick("about");
+          window.scrollTo({ top: 100, behavior: "smooth" });
+         }}>
           <span className="text-[#8245ec]">&lt;</span>
           {/* change name */}
           <span className="text-white">ANIRUDH</span>
