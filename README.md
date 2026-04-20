@@ -32,4 +32,4 @@ A sleek, responsive, and fully customizable **animated portfolio website** built
 
 
 <!-- change name and vercel link  -->
-This project was created with ❤️ by [anirudh kumar](   ).
+This project was created with ❤️ by [anirudh kumar]( https://portfolio-anirudh-yaduvanshis-projects.vercel.app/   ).

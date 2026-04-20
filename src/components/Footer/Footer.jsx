@@ -15,17 +15,15 @@ const Footer = () => {
       <div className="container mx-auto text-center">
         {/* Name / Logo */}
 
-
         {/* CHANGE YOUR NAME */}
-        <h2 className="text-xl font-semibold text-purple-500">Vashu Kumar</h2>
+        <h2 className="text-xl font-semibold text-purple-500">Anirudh Kumar</h2>
 
         {/* Navigation Links - Responsive */}
         <nav className="flex flex-wrap justify-center space-x-4 sm:space-x-6 mt-4">
           {[
             { name: "About", id: "about" },
             { name: "Skills", id: "skills" },
-            { name: "Experience", id: "experience" },
-            { name: "Projects", id: "projects" },
+            { name: "Projects", id: "work" },
             { name: "Education", id: "education" },
           ].map((item, index) => (
             <button
@@ -41,12 +39,12 @@ const Footer = () => {
         {/* Social Media Icons - Responsive */}
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
-
-            
             // /CHANGE LINKS
-            { icon: <FaLinkedin />, link: "#" },
-            { icon: <FaInstagram />, link: "#" },
-            
+            {
+              icon: <FaLinkedin />,
+              link: "https://www.linkedin.com/in/anirudh-kumar-b757a9404/",
+            },
+            { icon: <FaInstagram />, link: "https://www.instagram.com/anirudh_kumar/" },
           ].map((item, index) => (
             <a
               key={index}
@@ -62,9 +60,8 @@ const Footer = () => {
 
         {/* Copyright Text */}
         <p className="text-sm text-gray-400 mt-6">
-
-          {/* CHANGE WITH YOUR NAME */}
-          © 2025 Vashu Kumar. All rights reserved.
+          {/* CHANGE WITH YOUR NAME */}© 2025 Anirudh Kumar. All rights
+          reserved.
         </p>
       </div>
     </footer>

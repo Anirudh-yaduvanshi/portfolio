@@ -34,6 +34,7 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 
 // Education Section Logo's
 import upsLogo from './assets/education_logo/ups_logo.png';
+import sdsuv from './assets/education_logo/sdsuv.png';
 
 // ----------------------------------------ALL DONE-----------------------------------------------------
 
@@ -70,7 +71,7 @@ export const SkillsInfo = [
     skills: [
       { name: 'C', logo: cLogo },
       { name: 'C++', logo: cppLogo },
-      { name: 'Java', logo: javaLogo },
+      // { name: 'Java', logo: javaLogo },
       { name: 'JavaScript', logo: javascriptLogo },
     ],
   },
@@ -93,35 +94,33 @@ export const education = [
     id: 0,
     img: upsLogo,
     school: "Udaishwar Public School, Haridwar, Uttarakhand",
-    date: "Apr 2022 - Mar 2023",
-    grade: "77.4%",
-    desc: `Completed Class 12 under the CBSE board with Physics, Chemistry, Mathematics, Informatics Practices.`,
-    degree: "CBSE (Class XII)",
-    // subjects: [
-    //   { name: "English", marks: 89 },
-    //   { name: "Mathematics", marks: 55 },
-    //   { name: "Physics", marks: 79 },
-    //   { name: "Chemistry", marks: 90 },
-    //   { name: "Informatics Practices", marks: 74 },
-    //   { name: "Physical Education", marks: 81 },
-    // ],
+    date: "Apr 2020 - Mar 2021",
+
+    grade: "74%",
+    desc: `Completed Class 10 under the CBSE board. Achieved a strong academic record with a percentage of 74%, demonstrating a solid understanding of core subjects and a commitment to academic excellence.`,
+    degree: "CBSE (Class X)",
+   
   },
   {
     id: 1,
     img: upsLogo,
     school: "Udaishwar Public School, Haridwar, Uttarakhand",
-    date: "Apr 2020 - Mar 2021",
+    date: "Apr 2022 - Mar 2023",
+
+    grade: "72%",
+    desc: `Completed Class 12 under the CBSE board with Physics, Chemistry, Mathematics. Achieved a strong academic record with a percentage of 72%, demonstrating a solid understanding of core subjects and a commitment to academic excellence.`,
+    degree: "CBSE (Class XII)",
+
+  },
+  {
+    id: 2,
+    img: sdsuv,
+    school: "HEC group of institutions, affiliated to Shree dev suman university, Uttarakhand",
+    date: "Apr 2023 - Mar 2026",
     grade: "78.4%",
-    desc: `Completed Class 10 under the CBSE board with Mathematics, Science, and Information Technology.`,
-    degree: "CBSE (Class X)",
-    // subjects: [
-    //   { name: "English", marks: 71 },
-    //   { name: "Hindi", marks: 95 },
-    //   { name: "Mathematics", marks: 83 },
-    //   { name: "Science", marks: 61 },
-    //   { name: "Social Science", marks: 82 },
-    //   { name: "Information Technology", marks: 91 },
-    // ],
+    desc: `completed my graduation in Bachelor of Computer Applications (BCA) with a strong academic record, achieving a CGPA of 7.84. My coursework included programming languages, database management, web development, and software engineering, providing me with a solid foundation in computer applications and software development.`,
+    degree: "BCA (Bachelor of Computer Applications)",
+   
   },
 ];
 
