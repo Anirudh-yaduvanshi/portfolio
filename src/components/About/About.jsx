@@ -41,7 +41,7 @@ const About = () => {
             Full-Stack Developer | MERN Stack Developer | Passionate about creating dynamic and responsive web apps with clean code and seamless user experiences. Passionate about modern technologies and continuous growth in web development.
           </p>
 
-          {/* -----------------------------RESUME LINK  NEEDS TO BE CAHNGED---------------------------------------------------------------- */}
+          {/* -----------------------------RESUME LINK  NEEDS TO BE changed---------------------------------------------------------------- */}
 
           {/* Resume Button */}
           <a
@@ -73,7 +73,7 @@ const About = () => {
             {/* ------------------------------PROFILE IMAGE NEEDS TO BE CHANGED---------------------------------------------------------------- */}
             <img
               src={profileImage}
-              alt="ANirudh Kumar"
+              alt="Anirudh Kumar"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
           </Tilt>
