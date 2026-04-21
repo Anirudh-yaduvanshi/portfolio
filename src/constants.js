@@ -13,6 +13,7 @@ import deus from './assets/work_logo/deus.png';
 import currency from './assets/work_logo/currencuy.jpg';
 import library from './assets/work_logo/library.jpg';
 import inotebook from './assets/work_logo/inotebook.png';
+import password from './assets/work_logo/pass.png';
 
 
 
@@ -153,7 +154,7 @@ export const projects = [
       "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
     image: inotebook,
     tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/Vashu-Kumar/MovieRecommender",
+    github: "https://github.com/Anirudh-yaduvanshi/frontend",
     webapp: "https://frontend-vn8p.onrender.com/",
   },
   {
@@ -163,7 +164,7 @@ export const projects = [
       "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
     image: library,
     tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/Vashu-Kumar/MovieRecommender",
+    github: "https://github.com/Anirudh-yaduvanshi/PushtakMandi",
     webapp: "https://pushtakmanadi.onrender.com/",
   },
   {
@@ -173,7 +174,7 @@ export const projects = [
       "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
     image: sageer,
     tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/Vashu-Kumar/MovieRecommender",
+    github: "https://github.com/Anirudh-yaduvanshi/Sagir-fabrication",
     webapp: "https://sageer.vercel.app/",
   },
   {
@@ -183,7 +184,7 @@ export const projects = [
       "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
     image: deus,
     tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/Vashu-Kumar/MovieRecommender",
+    github: "https://github.com/Anirudh-yaduvanshi/RED-DEUS",
     webapp: "https://red-deus.onrender.com/",
   },
   
@@ -194,7 +195,7 @@ export const projects = [
       "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
     image: currency,
     tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/Vashu-Kumar/MovieRecommender",
+    github: "https://github.com/Anirudh-yaduvanshi/Currency-Converter",
     webapp: "https://currency-convertor-nine-psi.vercel.app/",
   },
   {
@@ -204,8 +205,18 @@ export const projects = [
       "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
     image: gyan,
     tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/Vashu-Kumar/MovieRecommender",
+    github: "https://github.com/Anirudh-yaduvanshi/Palace",
     webapp: "https://gyan-palace.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Password generator",
+    description:
+      "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+    image: password,
+    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Anirudh-yaduvanshi/PasswordGenerator",
+    webapp: "https://password-generator-lac-ten.vercel.app/",
   },
 
 
