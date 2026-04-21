@@ -7,7 +7,18 @@ import javascriptLogo from './assets/tech_logo/javascript.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
 
 
-import movierecLogo from './assets/work_logo/movie_rec.png';
+import gyan from './assets/work_logo/gyan.png';
+import sageer from './assets/work_logo/sageer.png';
+import deus from './assets/work_logo/deus.png';
+import currency from './assets/work_logo/currencuy.jpg';
+import library from './assets/work_logo/library.jpg';
+import inotebook from './assets/work_logo/inotebook.png';
+
+
+
+
+
+
 
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
 import gsapLogo from './assets/tech_logo/gsap.png';
@@ -118,7 +129,7 @@ export const education = [
     school: "HEC group of institutions, affiliated to Shree dev suman university, Uttarakhand",
     date: "Apr 2023 - Mar 2026",
     grade: "78.4%",
-    desc: `completed my graduation in Bachelor of Computer Applications (BCA) with a strong academic record, achieving a CGPA of 7.84. My coursework included programming languages, database management, web development, and software engineering, providing me with a solid foundation in computer applications and software development.`,
+    desc: `Completed my graduation in Bachelor of Computer Applications (BCA) with a strong academic record, achieving a CGPA of 7.84. My coursework included programming languages, database management, web development, and software engineering, providing me with a solid foundation in computer applications and software development.`,
     degree: "BCA (Bachelor of Computer Applications)",
    
   },
@@ -137,14 +148,67 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "MovieRecommender",
+    title: "iNotebook",
     description:
       "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-    image: movierecLogo,
+    image: inotebook,
     tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
     github: "https://github.com/Vashu-Kumar/MovieRecommender",
-    webapp: "https://movie-recommender-six-kappa.vercel.app/",
+    webapp: "https://frontend-vn8p.onrender.com/",
   },
+  {
+    id: 1,
+    title: "Library Management System",
+    description:
+      "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+    image: library,
+    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Vashu-Kumar/MovieRecommender",
+    webapp: "https://pushtakmanadi.onrender.com/",
+  },
+  {
+    id: 2,
+    title: "Sageer",
+    description:
+      "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+    image: sageer,
+    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Vashu-Kumar/MovieRecommender",
+    webapp: "https://sageer.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Deus",
+    description:
+      "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+    image: deus,
+    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Vashu-Kumar/MovieRecommender",
+    webapp: "https://red-deus.onrender.com/",
+  },
+  
+  {
+    id: 4,
+    title: "Currency Converter",
+    description:
+      "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+    image: currency,
+    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Vashu-Kumar/MovieRecommender",
+    webapp: "https://currency-convertor-nine-psi.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "gyan palace",
+    description:
+      "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+    image: gyan,
+    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Vashu-Kumar/MovieRecommender",
+    webapp: "https://gyan-palace.vercel.app/",
+  },
+
+
   
 ];
 
